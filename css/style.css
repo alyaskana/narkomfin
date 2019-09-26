@@ -43,7 +43,8 @@ table {
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption|PT+Sans:400,400i&display=swap&subset=cyrillic');
+
 
 body{
   font-family: 'PT Sans Caption', sans-serif;
@@ -61,8 +62,15 @@ body {
   width: 700px;
 }
 p{
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 19px;
+  line-height: 34px;
+  margin-top: 29px;
+}
+blockquote{
+  margin-top: 29px;
+  font-style: italic;
+  font-size: 19px;
+  line-height: 34px;
 }
 h1{
   font-size: 40px;
@@ -72,4 +80,33 @@ h1{
 }
 h1 + p {
   opacity: 0.5;
+  margin-top: 0px;
+  line-height: 32px;
+  font-size: 22px;
+}
+h2{
+  margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+h2 + p {
+  margin-top: 7px;
+}
+h3{
+  margin-top: 36px;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
+}
+h3 + p{
+  margin-top: 6px;
+}
+ul{
+  margin: 29px auto;
+}
+ul>li{
+  margin: 0px 0 17px 30px;
+  font-size: 19px;
+  line-height: 34px;
 }
